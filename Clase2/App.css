@@ -1,0 +1,18 @@
+.success, .error{
+    color: white;
+    padding: 5px;
+    margin: 5pc 0 13 px 0;
+}
+
+.success {
+    background: green;
+}
+
+.error{
+    background: red;
+}
+
+.card{
+    margin-left: 500px;
+    margin-top: 150px;
+}

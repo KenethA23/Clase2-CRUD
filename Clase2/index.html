@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootswatch-->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <!--bootswatch-->
+    <link rel="stylesheet" href="./App.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--navegacion-->
+    <nav class="navbar navbar-warning bg-warning">
+        <a class="navbar-brand" href="#">Productos App</a>
+    </nav>
+<div class="contenedor ">
+     <!--aplicacion-->
+    <div class="column mt_column mb-3">
+        <!--formulario-->
+        <div class="mt-1">
+            <div class="card" style="max-width: 20rem;">
+                <div class="card-header ">
+                    <h4>Agregar Producto</h4>
+                </div>
+                <form id="producto-formulario" class="card-body">
+                    <div class="form-group">
+                        <input type="text" 
+                        id="nombre" 
+                        placeholder="Nombre de Producto" 
+                        class="form-control">
+                    </div>
+<br>
+                    <div class="form-group">
+                        <input type="number" 
+                        id="precio"
+                        step="0.01" 
+                        placeholder="Precio de Producto" 
+                        class="form-control">
+                    </div>
+<br>
+                    <div class="form-group">
+                        <input type="number" 
+                        id="año"
+                        step="1" 
+                        value="2022" 
+                        class="form-control">
+                    </div>
+<br>
+                    <input type="Submit" 
+                    value="Guardar" 
+                    class="btn btn-primary btn-bloque">
+
+                </form>
+            </div>
+        </div>
+        <!--Lista de productos-->
+        <div id="producto-lista" class="madia-3">
+            
+        </div>
+
+
+    </div>
+</div>
+   
+<script src = "App.js" type="Module"></script>
+</body>
+</html>
