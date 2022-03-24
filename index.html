@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootswatch-->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <!--bootswatch-->
+    <link rel="stylesheet" href="./App.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--navegacion-->
+    <nav class="navbar justify-content-center" style="background-color: 		rgb(255, 105, 180);">
+        <a class="navbar-brand " href="#">Productos App</a>
+    </nav>
+<div class="contenedor m-0 row justify-content-center">
+     <!--aplicacion-->
+    <div class="column mt_column mb-3 col-auto">
+        <!--formulario-->
+        <div class="mt-1">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="card " style="max-width: 20rem;">
+                <div class="card-header ">
+                    <h4>Agregar Producto</h4>
+                </div>
+                <form id="producto-formulario" class="card-body">
+                    <div class="form-group">
+                        <input type="text" 
+                        id="nombre" 
+                        placeholder="Nombre de Producto" 
+                        class="form-control">
+                    </div>
+<br>
+                    <div class="form-group">
+                        <input type="number" 
+                        id="precio"
+                        step="0.01" 
+                        placeholder="Precio de Producto" 
+                        class="form-control">
+                    </div>
+<br>
+                    <div class="form-group">
+                        <input type="number" 
+                        id="año"
+                        step="1" 
+                        value="2022" 
+                        class="form-control">
+                    </div>
+<br>
+                    <input type="Submit" 
+                    value="Guardar" 
+                    class="btn btn-primary btn-bloque ">
+
+
+                </form>
+            </div>
+        </div>
+        <!--Lista de productos-->
+        <div id="producto-lista" class="madia-3">
+            
+        </div>
+
+
+    </div>
+</div>
+<section class="">
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color: rgb(0, 191, 255);">
+      <!-- Grid container -->
+      <div class="container p-8 pb-0">
+        <!-- Section: CTA -->
+        <section class="">
+          <p class="d-flex justify-content-center align-items-center">
+            <span class="me-3 text-black" ><strong> Registrate Gratis</span></strong>
+            <button type="button" class="btn btn-outline-dark btn-rounded text-white">
+              Registrate!
+            </button>
+          </p>
+        </section>
+        <!-- Section: CTA -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div class="text-center p-3 text-black" style="background-color: rgb(0, 191, 255);">
+        © 2020 Copyright:
+        <a class="text-black" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </section>
+<script src = "App.js" type="Module"></script>
+
+
+
+</body>
+</html>
